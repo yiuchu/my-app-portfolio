@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppRelativeLayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/AppTitle"
+        android:text="@string/my_app_title"
+        android:id="@+id/my_app_title_textView" />
+
+    <ListView
+        style="@style/AppPortfolioListView"
+        android:id="@+id/my_app_portfolio_listView"
+        android:layout_below="@+id/my_app_title_textView" />
+</RelativeLayout>
